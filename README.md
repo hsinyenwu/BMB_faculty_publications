@@ -16,7 +16,8 @@ FList <- read.xlsx("~/Desktop/faculty list_2022.12_AI.xlsx")
 ```
 
 ### Next you need to provide parameters:
-I will suggest to use days from Friday of previous week to Thursday this week, so we will not miss any publications. This is because BMB weekly is published every Friday.
+I will suggest to use days from **Friday of previous week to Thursday of this week**, so we will not miss any publications. This is because BMB weekly is published every Friday.
+
 ```
 START <- "2022-12-09"
 END <- "2022-12-15"
