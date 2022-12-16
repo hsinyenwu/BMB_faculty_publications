@@ -33,9 +33,9 @@ PAPERS <- c()
 
 #Loop for all faculty names.
 suppressMessages(for(i in 1:length(FList$FName)){
-  print(FList$FName[i])
+  # print(FList$FName[i])
   #Extract
-  dami_on_pubmed <- get_pubmed_ids(paste0(FList$FName[i],"[AU] AND Michigan State University [AD]", " AND", YEAR, "[PDAT]"))
+  dami_on_pubmed <- get_pubmed_ids(paste0(FList$FName[i],"[AU] AND Michigan State University [AD]", " AND ", YEAR, "[PDAT]"))
   if(dami_on_pubmed$Count!=0){
     # Fetch the data
     my_abstracts_xml <- fetch_pubmed_data(dami_on_pubmed)
@@ -77,9 +77,12 @@ suppressMessages(for(i in 1:length(FList$FName)){
     } else {next}
   }else {next}
 })
-  
+
 df <- data.frame(PAPERS=PAPERS) 
 df
+```
+Save the file:
+```
 write.xlsx(df,"~/Desktop/12_09_12_15_2022_papers.xlsx",)
 ```
 
