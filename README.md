@@ -1,6 +1,6 @@
 ## BMB faculty publications
 
-Please know that this code is not perfect and you might still have to do something manually. For example, some names have special coding e.g. Farr&#xe9 or Ru&#xdf. Also, some journal use all capital letters for artical names. Please fix those before publishing the resarch results.
+Please know that this code is not perfect, and you still have to do something manually. For example, some names have special coding e.g. Farr&#xe9 or Ru&#xdf. Also, some journal use all capital letters for artical names. Please fix those before publishing the resarch results.
 
 ### Code
 First load the library and the faculty names:
