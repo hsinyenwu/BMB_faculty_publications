@@ -2,7 +2,7 @@
 
 Please know that this code is not perfect, and you still have to do something manually. For example, some names have special coding e.g. Farr&#xe9 or Ru&#xdf. Also, some journal use all capital letters for artical names. Please fix those before publishing the resarch results.
 
-The [faculty list](https://github.com/hsinyenwu/BMB_faculty_publications/blob/main/faculty%20list_2022.12_AI.xlsx) is scraped from BMB regular faculty website with ChatGPT.
+The [faculty list](https://github.com/hsinyenwu/BMB_faculty_publications/blob/main/faculty%20list_2022.12_AI.xlsx) is scraped from BMB regular faculty website with ChatGPT. Please update the list throughout time.
 
 ### Code
 First load the library and the faculty names:
